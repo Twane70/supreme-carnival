@@ -117,10 +117,10 @@ export default function App() {
           <h1 className='text-5xl font-bold text-primary italic tracking-wide'>TrashGPT</h1>
           <span className='text-lg text-secondary-foreground font-medium'>Explorer un sujet :</span>
         </div>
-        <form onSubmit={startProcess} className='sticky top-4 flex flex-row h-12 drop-shadow-md focus-visible:drop-shadow-lg focus-visible:bg-secondary transition ease-in-out'>
+        <form onSubmit={startProcess} className='sticky top-4 z-10 flex flex-row h-12 drop-shadow-md focus-visible:drop-shadow-lg focus-visible:bg-secondary transition ease-in-out'>
           <Input
             placeholder="Pourquoi le ciel est bleu ?"
-            className='w-min-[200px] w-[600px] h-full rounded-full rounded-r-none bg-secondary px-6 text-xl'
+            className='w-min-[200px] w-[600px] h-full rounded-full rounded-r-none bg-background px-6 text-xl'
             value={inputValue}
             onChange={(e) => setInputValue(e.target.value)}
             disabled={loading}

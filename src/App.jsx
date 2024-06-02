@@ -134,7 +134,7 @@ export default function App() {
           {!loading && steps.summary && (
             <Card className='drop-shadow-md'>
               <CardHeader>
-                <CardTitle>{topic} {steps.expert?.emoji}</CardTitle>
+                <CardTitle className='capitalize'>{topic} {steps.expert?.emoji}</CardTitle>
                 {/* <CardDescription>By {steps.expert?.name}</CardDescription> */}
               </CardHeader>
               <CardContent className='text-justify'>

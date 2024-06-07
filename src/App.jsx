@@ -114,7 +114,7 @@ export default function App() {
       <div className="inset-0 fixed z-[-1] h-full w-full bg-secondary bg-[linear-gradient(to_right,rgb(200,200,200)_1px,transparent_1px),linear-gradient(to_bottom,rgb(200,200,200)_1px,transparent_1px)] bg-[size:28px_28px] [mask-image:radial-gradient(ellipse_60%_60%_at_50%_50%,rgba(0,0,0,0.6)_60%,transparent_130%)]" />
       <div className="m-4 flex flex-col items-center justify-center gap-4">
         <div className='flex flex-col gap-2 items-center justify-center'>
-          <h1 className='text-5xl font-bold text-primary italic tracking-wide'>TrashGPT</h1>
+          <h1 className='text-5xl font-bold text-primary italic tracking-wide'>FactGPT</h1>
           <span className='text-lg text-secondary-foreground font-medium'>Explorer un sujet :</span>
         </div>
         <form onSubmit={startProcess} className='sticky top-4 z-10 flex flex-row h-12 drop-shadow-md focus-visible:drop-shadow-lg focus-visible:bg-secondary transition ease-in-out'>
